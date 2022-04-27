@@ -18,7 +18,6 @@ jobs:
           name: webpack artifacts
           path: public/
   test:
-
     - uses: actions/download-artifact@main
       with:
         name: webpack artifacts
